@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;
+background-color: beige;
+}
+
+/* Style the button links */
+a:hover, a:active{
+background-color:aqua;
+}
+a:link, a:visited {
+    background-color:aquamarine;
+    color:white;
+    padding:14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+/* To Style the button link for 
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+
+<h2>Find My Trash</h2>
+<img src="giphy.gif" alt="gif">
+<h2>Login</h2>
+<form action="/action_page.php">
+    <label for="email">Email:</label>
+    <input type="text" id="email" value=""><br>
+    <label for="password">Password:</label>
+    <input type="text" id="password" value=""><br><br>
+    <a href="nonLogin.html" target="_blank">Log In</a>
+</form>
+
+<h2>OR</h2>
+
+<form action="/action_page.php">
+    <label for="name">Name:</label>
+    <input type="text" id="name" value=""><br><br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" value=""><br><br>
+    <label for="password">Password:</label>
+    <input type="text" id="password" value=""><br><br>
+    <a href="nonLogin.html" target="_blank">Sign Up</a>
+</form>
+ 
+
+</body>
+</html> 
